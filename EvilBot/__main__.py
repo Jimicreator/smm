@@ -79,8 +79,8 @@ buttons = [
         ),
      ],
      [  
-        InlineKeyboardButton(text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭🛠", url="https://t.me/EVIL_SUPPORT_CHAT"),
-        InlineKeyboardButton(text="𝐑𝐞𝐩𝐨🇮🇳", url="https://github.com/shrvan42/EvilBot"),
+        InlineKeyboardButton(text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭🛠", url="https://t.me/Jimi_Bots"),
+        InlineKeyboardButton(text="𝐑𝐞𝐩𝐨🇮🇳", url="https://t.me//Jimi_Bots"),
     ], 
 
     [
@@ -88,7 +88,7 @@ buttons = [
     ],
 ]
 HELP_STRINGS = """
-`𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 *𝙴𝚟𝚒𝚕 𝚁𝚘𝚋𝚘𝚝* [👿](https://telegra.ph/file/a064bd8497a5f6f03b290.mp4)
+`𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 *All in One Robot* [👿](https://telegra.ph/file/a064bd8497a5f6f03b290.mp4)
 `𝙲𝚕𝚒𝚌𝚔 𝚘𝚗 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚋𝚎𝚕𝚘𝚠 𝚝𝚘 𝚐𝚎𝚝 𝚍𝚘𝚌𝚞𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 𝚊𝚋𝚘𝚞𝚝 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌 𝚖𝚘𝚍𝚞𝚕𝚎𝚜..`"""
 evil_IMG = "https://telegra.ph/file/5dc8f5c53fb0c39ed983c.jpg"
 DONATE_STRING = """Heya, glad to hear you want to donate!
@@ -332,7 +332,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hey!.. I'm *Evil Robot*
-                 \nHere is the [Source Code](https://github.com/shrvan42/EvilBot) .""",
+                 \nHere is the [Source Code](https://github.com/Jimicreator/smm) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
